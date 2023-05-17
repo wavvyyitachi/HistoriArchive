@@ -3,8 +3,8 @@ from PIL import Image
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-icon = Image.open("D:\entreprenure project 2023\website\HistoriArchive_2-removebg-preview.png")
-timeline = Image.open("D:\entreprenure project 2023\website\Japan_timeline.png")
+icon = Image.open("HistoriArchive_2-removebg-preview.png")
+timeline = Image.open("Japan_timeline.png")
 st.set_page_config(page_title="Japan", page_icon= icon, layout="wide")
 
 selected = option_menu(

@@ -3,12 +3,12 @@ from PIL import Image
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-leo = Image.open("D:\entreprenure project 2023\website\Leo.jpg")
-josh = Image.open("D:\entreprenure project 2023\website\Josh.png")
-chris = Image.open("D:\entreprenure project 2023\website\Chris.jpg")
-jinu = Image.open("D:\entreprenure project 2023\website\Jinu.png")
-park = Image.open("D:\entreprenure project 2023\website\Park.png")
-icon = Image.open("D:\entreprenure project 2023\website\HistoriArchive_2-removebg-preview.png")
+leo = Image.open("Leo.jpg")
+josh = Image.open("Josh.png")
+chris = Image.open("Chris.jpg")
+jinu = Image.open("Jinu.png")
+park = Image.open("Park.png")
+icon = Image.open("HistoriArchive_2-removebg-preview.png")
 st.set_page_config(page_title="About Us", page_icon= icon, layout="wide")
 
 selected = option_menu(

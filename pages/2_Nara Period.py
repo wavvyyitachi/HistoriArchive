@@ -3,8 +3,8 @@ from PIL import Image
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-temple = Image.open("D:\entreprenure project 2023\website\Render_result.png")
-icon = Image.open("D:\entreprenure project 2023\website\HistoriArchive_2-removebg-preview.png")
+temple = Image.open("Render_result.png")
+icon = Image.open("HistoriArchive_2-removebg-preview.png")
 st.set_page_config(page_title="About Us", page_icon= icon, layout="wide")
 
 selected = option_menu(
@@ -32,9 +32,9 @@ st.markdown("<h1 style=' text-align: center; color: white; font-size: 130px;'>Na
 st.header("Classic Architecture: Todaiji Temple")
 
 with st.container():
-    image_column, text_column = st.columns((1, 2))
+    image_column, text_column = st.columns((1, 1))
     with image_column:
-        st.image(temple)
+        st.image(temple, width = 400)
     with text_column:
         st.write("[Interactive 3D Model >](https://app.vectary.com/p/5zbTD9EdFZMbULM90PjG4e)")
     

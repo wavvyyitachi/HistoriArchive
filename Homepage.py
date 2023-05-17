@@ -3,8 +3,8 @@ from PIL import Image
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-icon = Image.open("D:\entreprenure project 2023\website\HistoriArchive_2-removebg-preview.png")
-timeline = Image.open("D:\entreprenure project 2023\website\World time line.png")
+icon = Image.open("HistoriArchive_2-removebg-preview.png")
+timeline = Image.open("World time line.png")
 st.set_page_config(page_title="HistoriArchive-Home", page_icon= icon, layout="wide")
 
 
