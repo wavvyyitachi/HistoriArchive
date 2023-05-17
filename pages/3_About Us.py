@@ -31,8 +31,8 @@ selected = option_menu(
             },
 )
 
-st.markdown("<h1 style=' text-align: center; color: white; font-size: 130px;'>About Us</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; color: white; font-size: 30px; font-family: Courier New'>Dublin High School students who are aspiring to become successful engineers, entrepreneurs, coders, and more. Our team is made up of 4 budding engineers: Leo, Jinu, Chris, and Josh. Our goal is to give more accurate historical information, while preserving culture and spreading cultural diversity at the same time.</h1>", unsafe_allow_html=True)      
+st.markdown("<h1 style=' text-align: center; font-size: 130px;'>About Us</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 30px; font-family: Courier New'>Dublin High School students who are aspiring to become successful engineers, entrepreneurs, coders, and more. Our team is made up of 4 budding engineers: Leo, Jinu, Chris, and Josh. Our goal is to give more accurate historical information, while preserving culture and spreading cultural diversity at the same time.</h1>", unsafe_allow_html=True)      
 
 
 st.write("")

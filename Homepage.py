@@ -39,9 +39,9 @@ selected = option_menu(
 
 with st.container():
     
-    st.markdown("<h1 style=' text-align: center; color: white; font-size: 130px;'>HistoriArchive</h1>", unsafe_allow_html=True)       
-    st.markdown("<h1 style='text-align: center; color: white; font-size: 35px; font-family: Courier New'>A global platform for all artistic creators and game developers</h1>", unsafe_allow_html=True)
-    st.markdown("<h1 style='text-align: center; color: white; font-size: 20px; font-family: Courier New'>Inspire, Motivate, and Learn</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style=' text-align: center; font-size: 130px;'>HistoriArchive</h1>", unsafe_allow_html=True)       
+    st.markdown("<h1 style='text-align: center; ; font-size: 35px; font-family: Courier New'>A global platform for all artistic creators and game developers</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 20px; font-family: Courier New'>Inspire, Motivate, and Learn</h1>", unsafe_allow_html=True)
 
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)

@@ -27,7 +27,7 @@ selected = option_menu(
             },
 )
 
-st.markdown("<h1 style=' text-align: center; color: white; font-size: 130px;'>Nara Period: 710-794</h1>", unsafe_allow_html=True)       
+st.markdown("<h1 style=' text-align: center; font-size: 130px;'>Nara Period: 710-794</h1>", unsafe_allow_html=True)       
 
 st.header("Classic Architecture: Todaiji Temple")
 
