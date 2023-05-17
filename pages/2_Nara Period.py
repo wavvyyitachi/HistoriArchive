@@ -37,4 +37,4 @@ with st.container():
         st.image(temple, width = 400)
     with text_column:
         st.write("[Interactive 3D Model >](https://app.vectary.com/p/5zbTD9EdFZMbULM90PjG4e)")
-    
+    st.write("Tōdai-ji (東大寺, Todaiji temple, 'Eastern Great Temple') is a Buddhist temple complex that was once one of the powerful Seven Great Temples, located in the city of Nara, Japan. Though it was originally founded in the year 738 CE, Tōdai-ji was not opened until the year 752 CE. The temple has undergone several reconstructions since then, with the most significant reconstruction (that of the Great Buddha Hall) taking place in 1709.[1] Its Great Buddha Hall (大仏殿 Daibutsuden) houses the world's largest bronze statue of the Buddha Vairocana, known in Japanese as Daibutsu (大仏). The temple also serves as the Japanese headquarters of the Kegon school of Buddhism. The temple is a listed UNESCO World Heritage Site as one of the 'Historic Monuments of Ancient Nara', together with seven other sites including temples, shrines and places in the city of Nara.")    
